@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav class="page-navigation">
+      <a href="./index.html" class="nav-button">Home</a>
+      <a href="./1-timer.html" class="nav-button">Timer</a>
+    </nav>
+    <div class="snackbar-container">
+      <form class="form">
+        <label class="form-label">
+          Delay (ms)
+          <input type="number" name="delay" required class="form-input" />
+        </label>
+
+        <fieldset class="form-fieldset">
+          <legend>State</legend>
+          <label class="radio-label">
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit" class="submit-button">Create notification</button>
+      </form>
+    </div>
+
+    <script type="module" src="./js/2-snackbar.js"></script>
+    <footer class="footer">
+      <p>
+        Created by
+        <a
+          href="https://github.com/Syvyj"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Oleksii Ziuzin</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

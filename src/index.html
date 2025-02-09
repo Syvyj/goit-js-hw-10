@@ -4,20 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+    <main class="container">
+      <div class="content">
+        <h1 class="title">goit-js-hw-10</h1>
+        <nav class="navigation">
+          <a href="./1-timer.html" class="nav-button">Timer</a>
+          <a href="./2-snackbar.html" class="nav-button">Snackbar</a>
+        </nav>
+      </div>
     </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <footer class="footer">
+      <p>
+        Created by
+        <a
+          href="https://github.com/Syvyj"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Oleksii Ziuzin</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
