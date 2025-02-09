@@ -5,6 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <script async type="module" crossorigin src="/vanilla-app-template/assets/vendor-BbbuE1sJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-CZjNVMTf.css">
     <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-B0_heZGI.css">
   </head>
   <body>
@@ -15,6 +17,11 @@
           <a href="./1-timer.html" class="nav-button">Timer</a>
           <a href="./2-snackbar.html" class="nav-button">Snackbar</a>
         </nav>
+        <input
+          type="text"
+          id="yourElementId"
+          placeholder="Select Date and Time"
+        />
       </div>
     </main>
     <footer class="footer">
@@ -28,5 +35,19 @@
         >
       </p>
     </footer>
+    <script src="../node_modules/izitoast/dist/js/iziToast.min.js"></script>
+    <script src="../node_modules/flatpickr/dist/flatpickr.min.js"></script>
+    <script>
+      iziToast.show({
+        title: 'Hello',
+        message: 'Welcome to iziToast!',
+        position: 'topRight',
+      });
+
+      flatpickr('#yourElementId', {
+        enableTime: true,
+        dateFormat: 'Y-m-d H:i',
+      });
+    </script>
   </body>
 </html>
