@@ -34,7 +34,6 @@ main:has(.back-link) {
   text-align: center;
 }
 
-/* Загальні стилі для контейнерів */
 .container {
   flex: 1;
   display: flex;
@@ -50,7 +49,6 @@ main:has(.back-link) {
   gap: 2rem;
 }
 
-/* Стилі для навігації */
 .page-navigation,
 .navigation {
   display: flex;
@@ -95,7 +93,6 @@ main:has(.back-link) {
   transform: translateY(0);
 }
 
-/* Стилі для заголовка */
 .title {
   color: white;
   font-size: 2.5rem;
@@ -110,7 +107,6 @@ main:has(.back-link) {
   backdrop-filter: blur(4px);
 }
 
-/* Стилі для футера */
 .footer {
   padding: 1rem;
   background: rgba(255, 255, 255, 0.9);
@@ -138,7 +134,6 @@ main:has(.back-link) {
   text-decoration: underline;
 }
 
-/* Timer Specific Styles (merged from 1-timer.css) */
 .timer-container {
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
@@ -242,7 +237,6 @@ button[data-start]:disabled {
   box-shadow: none;
 }
 
-/* Flatpickr styles (from timer) */
 .flatpickr-calendar {
   background: white;
   border: none !important;
@@ -281,13 +275,11 @@ button[data-start]:disabled {
   font-weight: 600 !important;
 }
 
-/* iziToast styles (from timer) */
 .iziToast {
   border-radius: 12px !important;
   font-family: inherit !important;
 }
 
-/* Snackbar Specific Styles (merged from 2-snackbar.css) */
 .snackbar-container {
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;

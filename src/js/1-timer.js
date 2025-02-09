@@ -15,7 +15,6 @@ const refs = {
 let userSelectedDate = null;
 let timerInterval = null;
 
-// Disable start button initially
 refs.startBtn.disabled = true;
 
 const options = {
@@ -41,7 +40,6 @@ const options = {
     },
 };
 
-// Ініціалізуємо flatpickr
 const calendar = flatpickr("#datetime-picker", options);
 
 function convertMs(ms) {

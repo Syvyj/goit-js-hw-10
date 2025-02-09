@@ -10,14 +10,12 @@
 @import url('./container.css');
 @import url('./animations.css');
 
-/* Sections style */
 @import url('./header.css');
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
 
-/* Стилі для таймера */
 .timer-container {
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
@@ -121,7 +119,6 @@ button[data-start]:disabled {
   box-shadow: none;
 }
 
-/* Стилі для снекбару */
 .snackbar-container {
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
@@ -222,7 +219,6 @@ button[data-start]:disabled {
   transform: translateY(0);
 }
 
-/* Стилі для flatpickr */
 .flatpickr-calendar {
   background: white;
   border: none !important;
@@ -261,13 +257,11 @@ button[data-start]:disabled {
   font-weight: 600 !important;
 }
 
-/* Стилі для iziToast */
 .iziToast {
   border-radius: 12px !important;
   font-family: inherit !important;
 }
 
-/* Стилі для сторінок таймера та снекбару */
 body:has(.page-navigation) {
   padding: 2rem;
   gap: 0;
